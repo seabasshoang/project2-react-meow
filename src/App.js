@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MyHeader from './components/MyHeader';
+import MyNav from './components/MyNav';
 
 class App extends Component {
   render() {
@@ -8,15 +9,8 @@ class App extends Component {
         
         <MyHeader/>
         
-        <div className="news">
-          <div className="nav">
-                <ul>
-                    <li className="link1"><a href="#link1">Link 1</a></li>
-                    <li className="link2"><a href="#link2">Link 2</a></li>
-                    <li className="link3"><a href="#link3">Link 3</a></li>
-                </ul>
-          </div>
-        </div>
+        <MyNav/>
+
         <img src="http://globalmedicalco.com/photos/globalmedicalco/6/28294.jpg" className="picturemeow" alt="picturemeow" />
 
         <div id="link1">
