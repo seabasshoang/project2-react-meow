@@ -8,7 +8,9 @@ class App extends Component {
     return (
       <div className="App">
         
-        <MyHeader/>
+        <MyHeader
+          text="MEOW MEOW"
+        />
         
         <MyNav/>
 
