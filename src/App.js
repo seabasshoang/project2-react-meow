@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
+import MyHeader from './components/MyHeader';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          
-          <h1 className="App-title">MEOW MEOW</h1>
-          
-        </header>
+        
+        <MyHeader/>
+        
         <div className="news">
           <div className="nav">
                 <ul>
