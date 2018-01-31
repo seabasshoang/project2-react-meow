@@ -2,6 +2,9 @@ import React from 'react';
 
 class MyNav extends React.Component{
     render(){
+
+
+
         return(
                 <div className="nav">
                     <ul>

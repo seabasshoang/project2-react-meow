@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class MyFooter extends React.Component{
     render(){
@@ -13,3 +14,7 @@ class MyFooter extends React.Component{
     }
 }
 export default MyFooter;
+
+MyFooter.propTypes = {
+    href: PropTypes.string
+}

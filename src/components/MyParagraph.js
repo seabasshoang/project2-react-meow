@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from'prop-types';
 
 class MyParagraph extends React.Component{
     render(){    
@@ -13,6 +14,8 @@ class MyParagraph extends React.Component{
 
         const paragraphList = paragraph.map(buildParagraph)
 
+        
+
         return(
             <div id={this.props.id}>
                 <h2>{this.props.title}</h2>
@@ -22,3 +25,9 @@ class MyParagraph extends React.Component{
     }
 }
 export default MyParagraph;
+
+MyParagraph.propTypes = {
+    paragraphList: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    id: PropTypes.string
+}
