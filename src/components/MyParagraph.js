@@ -27,7 +27,7 @@ class MyParagraph extends React.Component{
 export default MyParagraph;
 
 MyParagraph.propTypes = {
-    paragraphList: PropTypes.string,
+    paragraph: PropTypes.array.isRequired,
     title: PropTypes.string.isRequired,
-    id: PropTypes.string
+    id: PropTypes.string.isRequired
 }
